@@ -75,7 +75,7 @@ nav li a:hover {
 }
 
 .card img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -109,6 +109,6 @@ footer {
 }
 
 .redes-sociais img {
-  max-width: 50px;
+  max-width: 70px;
   height: auto;
 }
