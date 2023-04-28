@@ -1,0 +1,114 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos do Cabeçalho */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: #f4f4f4;
+}
+
+/* Estilos da Seção de Conteúdo */
+
+.content {
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.card figure {
+  margin: 0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card figcaption {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Estilos do Rodapé */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.redes-sociais h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.redes-sociais nav {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.redes-sociais img {
+  max-width: 50px;
+  height: auto;
+}
