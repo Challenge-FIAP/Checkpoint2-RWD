@@ -1,79 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descrição da landing page com as palavras-chave principais"
+    />
+    <meta name="keywords" content="palavras-chave principais, para, SEO" />
+    <title>Checkpoint2-RWD</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Descrição da landing page com as palavras-chave principais" />
-  <meta name="keywords" content="palavras-chave principais, para, SEO" />
-  <title>Checkpoint2-RWD</title>
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <img src="./img/home.svg" alt="Logo do Blog" />
-    </div>
-    <h1>CHECKPOINT</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Principal</a></li>
-        <li><a href="./pages/games.html">Games</a></li>
-        <li><a href="./pages/mobile.html">Mobile</a></li>
-        <li><a href="./pages/tecnologia.html">Tecnologia</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="content">
-      <article class="card">
-        <h2>Games</h2>
-        <figure>
-          <img src="./img/games.svg" alt="Imagem de Jogos" />
-          <figcaption>Este artigo sobre videogames explora o papel dos jogos eletrônicos na cultura atual, analisando a
-            evolução do mercado e as tendências mais recentes. São apresentados exemplos de jogos populares e seus
-            impactos na indústria, além de discutir os desafios enfrentados pelos desenvolvedores e jogadores. O artigo
-            também discute a influência dos videogames na sociedade, tanto no âmbito social quanto educacional, e
-            apresenta reflexões sobre o futuro dos jogos eletrônicos.</figcaption>
-        </figure>
-      </article>
-      <article class="card">
-        <h2>Mobile</h2>
-        <figure>
-          <img src="./img/mobile.svg" alt="Imagem de dispositivos móveis" />
-          <figcaption>Este artigo sobre dispositivos mobile apresenta as tendências mais recentes em smartphones,
-            tablets e outros dispositivos portáteis. Ele discute a evolução da tecnologia móvel ao longo do tempo e como
-            isso tem afetado o comportamento do consumidor. Além disso, o artigo aborda questões como a privacidade dos
-            usuários, a segurança dos dados e as implicações da conectividade constante. São apresentados exemplos de
-            dispositivos móveis populares e seus recursos mais inovadores, além de reflexões sobre as possibilidades
-            futuras da tecnologia móvel.</figcaption>
-        </figure>
-      </article>
-      <article class="card">
-        <h2>Tecnologia</h2>
-        <figure>
-          <img src="./img/tech.svg" alt="Imagem de tecnologia" />
-          <figcaption>Este artigo sobre tecnologia em geral apresenta uma visão ampla sobre as tendências mais recentes
-            no campo da tecnologia, incluindo inteligência artificial, Internet das Coisas, robótica e outras áreas
-            emergentes. Ele discute como a tecnologia tem impactado nossa sociedade e como as empresas estão se
-            adaptando a essas mudanças. O artigo também apresenta reflexões sobre o futuro da tecnologia e seus
-            possíveis impactos na vida cotidiana e no mercado de trabalho. São apresentados exemplos de inovações
-            tecnológicas recentes e seus benefícios e desafios.</figcaption>
-        </figure>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <div class="redes-sociais">
-      <h2>Redes Sociais</h2>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img src="./img/home.svg" alt="Logo do Blog" width="100" />
+        <h1>CHECKPOINT</h1>
+      </a>
       <nav>
-        <a href="#"><img src="./img/github-blue.svg" alt="Ícone do Github" /></a>
-        <a href="#"><img src="./img/facebook-blue.svg" alt="Ícone do Facebook" /></a>
-        <a href="#"><img src="./img/twitter-blue.svg" alt="Ícone do Twitter" /></a>
+        <ul>
+          <li><a href="index.html">Principal</a></li>
+          <li><a href="./pages/games.html">Games</a></li>
+          <li><a href="./pages/mobile.html">Mobile</a></li>
+          <li><a href="./pages/tecnologia.html">Tecnologia</a></li>
+        </ul>
       </nav>
-    </div>
-  </footer>
-</body>
-
+    </header>
+    <main>
+      <section class="content">
+        <article class="card">
+          <a href="./pages/games.html">
+            <figure>
+              <img src="./img/games.svg" alt="Imagem de Jogos" />
+              <div>
+                <h2>Games</h2>
+                <figcaption>
+                  Artigo sobre videogames: mercado, tendências, jogos populares,
+                  desafios para desenvolvedores e jogadores, influência dos
+                  videogames na sociedade e reflexões sobre o futuro.
+                </figcaption>
+              </div>
+            </figure>
+          </a>
+        </article>
+        <article class="card">
+          <a href="./pages/mobile.html">
+            <figure>
+              <img src="./img/mobile.svg" alt="Imagem de dispositivos móveis" />
+              <div>
+                <h2>Mobile</h2>
+                <figcaption>
+                  Artigo sobre dispositivos móveis: tendências recentes,
+                  evolução da tecnologia móvel, impacto no comportamento do
+                  consumidor, privacidade, segurança de dados, conectividade
+                  constante, exemplos de dispositivos populares e reflexões
+                  sobre o futuro da tecnologia móvel.
+                </figcaption>
+              </div>
+            </figure>
+          </a>
+        </article>
+        <article class="card">
+          <a href="./pages/tecnologia.html">
+            <figure>
+              <img src="./img/tech.svg" alt="Imagem de tecnologia" />
+              <div>
+                <h2>Tecnologia</h2>
+                <figcaption>
+                  Artigo sobre tecnologia: tendências recentes, impacto na
+                  sociedade, adaptação das empresas, futuro da tecnologia,
+                  exemplos de inovações e reflexões sobre seus benefícios e
+                  desafios.
+                </figcaption>
+              </div>
+            </figure>
+          </a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <h2>Redes Sociais:</h2>
+      <nav>
+        <a href="#">
+          <img src="./img/github-blue.svg" alt="Ícone do Github" />
+        </a>
+        <a href="#">
+          <img src="./img/facebook-blue.svg" alt="Ícone do Facebook" />
+        </a>
+        <a href="#">
+          <img src="./img/twitter-blue.svg" alt="Ícone do Twitter" />
+        </a>
+      </nav>
+    </footer>
+  </body>
 </html>
