@@ -18,6 +18,12 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  border: #fff 1px solid;
 }
 
 .logo {
@@ -63,6 +69,8 @@ nav li a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   padding: 20px;
   margin-bottom: 30px;
+  display: flex;
+  
 }
 
 .card h2 {
@@ -75,7 +83,7 @@ nav li a:hover {
 }
 
 .card img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -95,12 +103,12 @@ footer {
 
 .redes-sociais h2 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .redes-sociais nav {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .redes-sociais a {
@@ -109,6 +117,6 @@ footer {
 }
 
 .redes-sociais img {
-  max-width: 50px;
+  max-width: 70px;
   height: auto;
 }
